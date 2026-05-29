@@ -8,10 +8,10 @@ public class Counter {
 		this.reset();
 	}	
 	public void reset() {
-		count = 1;
+		count = 0;
 	}
 	public void increment() {
-		count++;
+		count+=1;
 	}
 	public void decrement() {
 		count--;
