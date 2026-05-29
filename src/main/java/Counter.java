@@ -14,7 +14,7 @@ public class Counter {
 		count+=1;
 	}
 	public void decrement() {
-		count--;
+		count-=1;
 	}
 	public int getCount() {
 		return count;
