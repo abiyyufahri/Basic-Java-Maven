@@ -11,7 +11,7 @@ public class Counter {
 		count = 0;
 	}
 	public void increment() {
-		count++;
+		count+=1;
 	}
 	public void decrement() {
 		count--;
